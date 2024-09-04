@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Descuentos - Tienda de Coches</title>
+    <link rel="stylesheet" href="05_ejercicio.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Descuentos - Tienda de Coches</h1>
+        <form id="carForm">
+            <label for="carSelect">Seleccione un coche:</label>
+            <select id="carSelect">
+                <option value="FORD FIESTA">FORD FIESTA</option>
+                <option value="FORD FOCUS">FORD FOCUS</option>
+                <option value="FORD ESCAPE">FORD ESCAPE</option>
+            </select>
+            <button type="button" onclick="calculateDiscount()">Calcular Descuento</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="05_ejercicio.js"></script>
+</body>
+</html>
+
